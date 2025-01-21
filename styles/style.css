@@ -54,6 +54,14 @@ body {
   cursor: pointer;
 }
 
+.section-title {
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
 /*-----------------nav section styles------------------ */
 
 .nav-container {
@@ -157,6 +165,107 @@ body {
 
 /*------------------ standard curriculum section styles ---------------*/
 
+.standard-curriculum {
+  background-image: url("../images/bg.png");
+}
+
+.standard-curriculum-card-container {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 28px;
+  margin-bottom: 80px;
+}
+
+.curriculum-card {
+  text-align: center;
+  padding: 55px 40px;
+  border-radius: 18px;
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.05);
+  flex: 1;
+}
+
+#curriculum-card-1 {
+  border: 1px solid rgba(222, 245, 255, 1);
+  background: linear-gradient(
+    to bottom,
+    rgba(222, 245, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 1)
+  );
+}
+
+#curriculum-card-2 {
+  border: 1px solid rgba(255, 244, 220, 1);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 244, 220, 1) 0%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 1)
+  );
+}
+#curriculum-card-3 {
+  border: 1px solid rgba(242, 232, 255, 1);
+  background: linear-gradient(
+    to bottom,
+    rgba(238, 225, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 1)
+  );
+}
+
+.curriculum-img {
+  width: 130px;
+  height: 110px;
+}
+
+.curriculum-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: rgba(32, 32, 32, 1);
+}
+
+.curriculum-description {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 1);
+  margin-bottom: 32px;
+}
+.read-more-link {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#read-more-link-1 {
+  color: rgba(100, 200, 255, 1);
+}
+#read-more-link-2 {
+  color: rgba(240, 170, 0, 1);
+}
+#read-more-link-3 {
+  color: rgba(135, 0, 255, 1);
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.arrow-icon {
+  font-size: 24px;
+  padding: 12px 18px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+}
+
+.arrow-icon:hover {
+  background-color: rgba(255, 166, 0, 0.502);
+}
 /*------------------ our stories section styles ---------------*/
 
 /*------------------ footer section styles ---------------*/
