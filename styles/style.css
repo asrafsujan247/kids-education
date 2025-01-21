@@ -321,7 +321,7 @@ body {
   padding: 14px 20px;
   border-radius: 47px;
   position: absolute;
-  bottom: -20px;
+  bottom: -18px;
   left: 35px;
 }
 
@@ -356,7 +356,7 @@ body {
   border-radius: 47px;
   position: absolute;
   left: 32px;
-  bottom: -17px;
+  bottom: -14px;
 }
 
 #highlight-blue-date {
@@ -472,6 +472,32 @@ body {
     display: none;
   }
   /*------------------ our stories responsive styles ---------------*/
+
+  .our-stories-container {
+    display: block;
+  }
+
+  .stories-left {
+    display: none;
+  }
+  .stories-right {
+    gap: 11px;
+    padding: 20px;
+  }
+  .story-right-title {
+    font-size: 9px;
+    padding: 30px 25px;
+  }
+  .story-right-published-date {
+    font-size: 9px;
+  }
+  .story-right-published-date {
+    left: 20px;
+  }
+  .view-all-btn {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
 
   /*------------------ footer responsive styles ---------------*/
 }
