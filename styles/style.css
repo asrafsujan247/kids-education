@@ -269,8 +269,110 @@ body {
 /*------------------ our stories section styles ---------------*/
 
 .our-stories {
-  background-image: url("../images/bg.png");
+  background-image: url("../images/bg.png"),
+    linear-gradient(
+      to top,
+      rgba(254, 161, 1, 0.299) 0%,
+      rgba(254, 169, 23, 0.297) 9%,
+      rgba(255, 255, 255, 0.39) 100%
+    );
   background-size: cover;
+}
+
+.our-stories-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.stories-left {
+  border-radius: 12px;
+  background-color: #fff;
+  position: relative;
+}
+
+.story-left-img,
+.story-right-img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.story-left-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.story-description {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
+}
+
+.story-left-img-container {
+  position: relative;
+}
+
+.published-date-story-left {
+  background-color: rgba(60, 216, 232, 1);
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 47px;
+  position: absolute;
+  bottom: -20px;
+  left: 35px;
+}
+
+.story-info {
+  padding: 35px;
+}
+
+.story-card {
+  border-radius: 12px;
+  background-color: #fff;
+}
+.stories-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.story-right-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 45px 35px 35px 35px;
+}
+.story-right-img-container {
+  position: relative;
+}
+.story-right-published-date {
+  background-color: rgba(149, 178, 38, 1);
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 47px;
+  position: absolute;
+  left: 32px;
+  bottom: -17px;
+}
+
+#highlight-blue-date {
+  background-color: rgba(93, 88, 240, 1);
+}
+
+.view-all-btn-container {
+  text-align: center;
+}
+
+.view-all-btn {
+  background-color: black;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-family: inherit;
 }
 
 /*------------------ footer section styles ---------------*/

@@ -74,9 +74,9 @@
       </div>
     </header>
     <!-- main section -->
-    <main class="container">
+    <main>
       <!-- standard curriculum section -->
-      <section class="standard-curriculum">
+      <section class="standard-curriculum container">
         <h2 class="section-title">Standard Curriculum</h2>
         <div class="standard-curriculum-card-container">
           <div id="curriculum-card-1" class="curriculum-card">
@@ -133,69 +133,92 @@
       <!-- our stories section -->
       <section class="our-stories">
         <h2 class="section-title">Our Stories</h2>
-        <div class="our-stories-container">
+        <div class="our-stories-container container">
           <div class="stories-left">
-            <img
-              class="story-left-img"
-              src="./images/story-1.png"
-              alt="Story"
-            />
-            <h4 class="story-left-title">
-              A fun toddler coloring training on classroom
-            </h4>
-            <p class="description">
-              Step into the magical world of a toddler classroom, where
-              creativity comes to life! The story begins in a bright and
-              cheerful classroom filled with tiny desks...
-            </p>
-            <span class="published-date-story-left">November 19, 2019</span>
+            <div class="story-left-img-container">
+              <img
+                class="story-left-img"
+                src="./images/story-1.png"
+                alt="Story"
+              />
+              <span class="published-date-story-left">November 19, 2019</span>
+            </div>
+            <div class="story-info">
+              <h4 class="story-left-title">
+                A fun toddler coloring training on classroom
+              </h4>
+              <p class="story-description">
+                Step into the magical world of a toddler classroom, where
+                creativity comes to life! The story begins in a bright and
+                cheerful classroom filled with tiny desks...
+              </p>
+            </div>
           </div>
           <div class="stories-right">
             <div class="story-card">
-              <img
-                src="./images/story-2.png"
-                alt="Story"
-                class="story-right-img"
-              />
+              <div class="story-right-img-container">
+                <img
+                  src="./images/story-2.png"
+                  alt="Story"
+                  class="story-right-img"
+                />
+                <span class="story-right-published-date"
+                  >November 19, 2019</span
+                >
+              </div>
               <h4 class="story-right-title">
                 Find out if a school fits the family’s needs
               </h4>
-              <span class="story-right-published-date">November 19, 2019</span>
             </div>
             <div class="story-card">
-              <img
-                src="./images/story-3.png"
-                alt="Story"
-                class="story-right-img"
-              />
+              <div class="story-right-img-container">
+                <img
+                  src="./images/story-3.png"
+                  alt="Story"
+                  class="story-right-img"
+                />
+                <span
+                  class="story-right-published-date"
+                  id="highlight-blue-date"
+                  >July 19, 2019</span
+                >
+              </div>
               <h4 class="story-right-title">
                 Summer math & literacy centres for kids
               </h4>
-              <span class="story-right-published-date">July 19, 2019</span>
             </div>
             <div class="story-card">
-              <img
-                src="./images/story-4.png"
-                alt="Story"
-                class="story-right-img"
-              />
+              <div class="story-right-img-container">
+                <img
+                  src="./images/story-4.png"
+                  alt="Story"
+                  class="story-right-img"
+                />
+                <span class="story-right-published-date">March 12, 2019</span>
+              </div>
               <h4 class="story-right-title">
                 Classroom management techniques for new tutors
               </h4>
-              <span class="story-right-published-date">March 12, 2019</span>
             </div>
             <div class="story-card">
-              <img
-                src="./images/story-5.png"
-                alt="Story"
-                class="story-right-img"
-              />
+              <div class="story-right-img-container">
+                <img
+                  src="./images/story-5.png"
+                  alt="Story"
+                  class="story-right-img"
+                />
+                <span class="story-right-published-date"
+                  >February 15, 2019</span
+                >
+              </div>
               <h4 class="story-right-title">
                 Conversation rhymes improve kids listening
               </h4>
-              <span class="story-right-published-date">February 15, 2019</span>
             </div>
           </div>
+        </div>
+        <div class="view-all-btn-container">
+          <button class="view-all-btn btn-primary pointer">View All</button>
         </div>
       </section>
     </main>
