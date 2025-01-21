@@ -377,6 +377,10 @@ body {
 
 /*------------------ footer section styles ---------------*/
 
+footer {
+  background-color: rgba(1, 172, 253, 1);
+}
+
 /*---------------- media query for mobile devices ------------------*/
 
 @media screen and (max-width: 576px) {
