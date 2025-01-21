@@ -43,7 +43,7 @@ body {
 }
 
 .btn-primary {
-  padding: 10px 55px;
+  padding: 12px 55px;
   font-size: 20px;
   color: white;
   border-radius: 12px;
@@ -172,7 +172,6 @@ body {
 .standard-curriculum-card-container {
   display: flex;
   justify-content: space-between;
-
   gap: 28px;
   margin-bottom: 80px;
 }
@@ -282,6 +281,14 @@ body {
     border: 1px solid transparent;
   }
 
+  .section-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
   /*------------------- navbar responsive styles --------------------- */
   .nav-items-container,
   .logo-title,
@@ -336,6 +343,26 @@ body {
 
   /*------------------ standard curriculum responsive styles ---------------*/
 
+  .standard-curriculum-card-container {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 17px;
+  }
+  .curriculum-title {
+    font-size: 17px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+  .curriculum-description {
+    margin-bottom: 22px;
+  }
+  .curriculum-description,
+  .read-more-link {
+    font-size: 11px;
+  }
+  .arrow-container {
+    display: none;
+  }
   /*------------------ our stories responsive styles ---------------*/
 
   /*------------------ footer responsive styles ---------------*/
