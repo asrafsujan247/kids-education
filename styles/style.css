@@ -1,14 +1,233 @@
-/* quicksand font */
+/* import fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*---------------------- quicksand font------------------- */
 .quicksand-primary-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-/* raleway font */
+/*----------------------- raleway font------------------- */
 .raleway-secondary-font {
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
+}
+
+/* ----------------------universal styles-------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables */
+:root {
+  --primary-color: rgba(254, 163, 1, 1);
+  --secondary-color: rgba(1, 172, 253, 1);
+  --paste: rgba(5, 212, 223, 1);
+  --purple: rgba(93, 88, 239, 1);
+}
+
+/*------------------ shared styles ----------------------*/
+
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  padding: 10px 55px;
+  font-size: 20px;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/*-----------------nav section styles------------------ */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items-container {
+  display: flex;
+  gap: 32px;
+}
+
+.logo {
+  margin-right: 10px;
+  max-width: 62px;
+  max-height: 62px;
+}
+
+.logo-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-item {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-item-link {
+  text-decoration: none;
+}
+
+#nav-item-link-1 {
+  color: var(--primary-color);
+}
+#nav-item-link-2 {
+  color: var(--secondary-color);
+}
+#nav-item-link-3 {
+  color: var(--paste);
+}
+#nav-item-link-4 {
+  color: var(--purple);
+}
+
+.contact-btn {
+  background-color: var(--primary-color);
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.hamburger-icon-container {
+  display: none;
+}
+
+/* ---------------------banner section styles ------------------------*/
+.banner-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.banner-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 61px;
+}
+
+.empowering-text {
+  color: var(--primary-color);
+}
+.towards-vision-text {
+  color: var(--secondary-color);
+}
+
+.banner-description {
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.banner-btn {
+  background-color: black;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.banner-image {
+  max-width: 469px;
+  max-height: 575px;
+}
+
+/*------------------ standard curriculum section styles ---------------*/
+
+/*------------------ our stories section styles ---------------*/
+
+/*------------------ footer section styles ---------------*/
+
+/*---------------- media query for mobile devices ------------------*/
+
+@media screen and (max-width: 576px) {
+  /* shared styles responsive */
+  .btn-primary {
+    padding: 10px 24px;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+  }
+
+  /*------------------- navbar responsive styles --------------------- */
+  .nav-items-container,
+  .logo-title,
+  .contact-btn-container {
+    display: none;
+  }
+
+  .nav-container {
+    padding: 12px 16px;
+    border-bottom: 0.5px solid var(--primary-color);
+    margin: 0px;
+  }
+
+  .hamburger-icon-container {
+    display: block;
+  }
+  .hamburger-icon {
+    font-size: 30px;
+  }
+  .logo {
+    width: 46px;
+    height: 46px;
+  }
+  /*------------------ banner responsive styles ---------------*/
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 26px;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-info {
+    text-align: center;
+    padding: 10px;
+  }
+  .banner-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .banner-description {
+    font-size: 14px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-weight: 500;
+  }
+  .banner-btn {
+    font-weight: bold;
+    font-family: inherit;
+  }
+
+  /*------------------ standard curriculum responsive styles ---------------*/
+
+  /*------------------ our stories responsive styles ---------------*/
+
+  /*------------------ footer responsive styles ---------------*/
 }

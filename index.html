@@ -4,15 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kids Education</title>
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- font awesome -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,500;1,500&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!-- css file link -->
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="quicksand-primary-font"></body>
+  <body class="quicksand-primary-font">
+    <!-- header section -->
+    <header class="header container">
+      <!-- nav section -->
+      <nav class="nav">
+        <div class="nav-container">
+          <div class="logo-info-container">
+            <img class="logo" src="./images/logo.png" alt="Website logo" />
+            <h2 class="logo-title">Kids Education</h2>
+          </div>
+          <ul class="nav-items-container">
+            <li class="nav-item">
+              <a href="" id="nav-item-link-1" class="nav-item-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" id="nav-item-link-2" class="nav-item-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="" id="nav-item-link-3" class="nav-item-link"
+                >Facilities</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="" id="nav-item-link-4" class="nav-item-link"
+                >Admission</a
+              >
+            </li>
+          </ul>
+          <div class="contact-btn-container">
+            <button class="contact-btn btn-primary pointer">Contact</button>
+          </div>
+          <div class="hamburger-icon-container">
+            <i class="fa-solid fa-bars hamburger-icon"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <div class="banner-container">
+        <div class="banner-info">
+          <h1 class="banner-title">
+            <span class="empowering-text">Empowering</span> students from small
+            age <span class="towards-vision-text">towards vision</span>
+          </h1>
+          <div class="banner-description">
+            With the courage, Confidence, Creativity and Compassion to make
+            their Unique Contribution in a Diverse and Dynamic World.
+          </div>
+          <button class="banner-btn btn-primary pointer">Enroll Now</button>
+        </div>
+        <div class="banner-image-container">
+          <img
+            src="./images/hero-kids.png"
+            alt="A kid is standing in the banner image"
+            class="banner-image"
+          />
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
