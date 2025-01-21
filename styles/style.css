@@ -266,6 +266,17 @@ body {
 .arrow-icon:hover {
   background-color: rgba(255, 166, 0, 0.502);
 }
+
+/*------------ marquee style --------------------*/
+.marquee {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
 /*------------------ our stories section styles ---------------*/
 
 .our-stories {
@@ -545,6 +556,13 @@ footer {
   .arrow-container {
     display: none;
   }
+  /* -------------marquee responsive styles */
+  .marquee {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
   /*------------------ our stories responsive styles ---------------*/
 
   .our-stories-container {
