@@ -167,6 +167,7 @@ body {
 
 .standard-curriculum {
   background-image: url("../images/bg.png");
+  background-size: cover;
 }
 
 .standard-curriculum-card-container {
@@ -267,12 +268,17 @@ body {
 }
 /*------------------ our stories section styles ---------------*/
 
+.our-stories {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+}
+
 /*------------------ footer section styles ---------------*/
 
 /*---------------- media query for mobile devices ------------------*/
 
 @media screen and (max-width: 576px) {
-  /* shared styles responsive */
+  /* ---------------shared styles responsive----------------- */
   .btn-primary {
     padding: 10px 24px;
     font-size: 16px;
